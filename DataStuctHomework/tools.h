@@ -1,7 +1,9 @@
-
 #ifndef __TOOLS_H__
 
 #define __TOOLS_H__
+
+#define WINVER 0x0A00
+#define _WIN32_WINNT 0x0A00
 
 #include <graphics.h>
 #include <iostream>
@@ -13,6 +15,10 @@
 #include <vector>
 #include <random>
 #include <ctime>
+#include <utility>
+#include <conio.h>
+#include <ShellScalingApi.h>
+#pragma comment(lib, "Shcore.lib")
 
 const int max_width = 10000;
 const int max_height = 10000;

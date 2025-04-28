@@ -24,6 +24,7 @@
     <ProjectGuid>{3832e639-3608-4fb4-9433-d5651d1a81c0}</ProjectGuid>
     <RootNamespace>DataStuctHomework</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>DataStructHomework</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -129,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="Camera.h" />
+    <ClCompile Include="Comparator.cpp" />
     <ClCompile Include="Edge.cpp" />
     <ClCompile Include="Generator.cpp" />
     <ClCompile Include="Generator.h" />
@@ -138,6 +140,7 @@
     <ClCompile Include="tools.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Comparator.h" />
     <ClInclude Include="Edge.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="Random.h" />
