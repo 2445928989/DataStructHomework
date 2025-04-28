@@ -1,3 +1,4 @@
+// 提供数据生成的定义
 #ifndef __GENERATOR_H__
 
 #define __GENERATOR_H__

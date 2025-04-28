@@ -1,3 +1,4 @@
+// 提供边的定义
 #ifndef __EDGE_H__
 #define __EDGE_H__
 #include "Point.h"

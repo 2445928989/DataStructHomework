@@ -1,3 +1,4 @@
+// 提供随机数引擎的定义
 #ifndef __RANDOM_H__
 #define __RANDOM_H__
 

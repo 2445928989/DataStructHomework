@@ -1,3 +1,4 @@
+// 提供比较器的定义
 #ifndef __COMPARATOR_H__
 #define __COMPARATOR_H__
 
