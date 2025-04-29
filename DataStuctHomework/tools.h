@@ -22,15 +22,15 @@
 #pragma comment(lib, "Shcore.lib")
 
 // 图的最大宽度，请确保为点对间最小距离的倍数
-const int max_width = 10000;
+const int MAX_WIDTH = 10000;
 // 图的最大高度，请确保为点对间最小距离的倍数
-const int max_height = 10000;
+const int MAX_HEIGHT = 10000;
 // 窗口的宽度
-const int window_width = 1600;
+const int WINDOW_WIDTH = 1600;
 // 窗口的高度
-const int window_height = 1200;
+const int WINDOW_HEIGHT = 1200;
 // 点与点之间最小的曼哈顿距离
-const int min_distance = 10;
+const int MIN_DISTANCE = 10;
 
 
 #endif

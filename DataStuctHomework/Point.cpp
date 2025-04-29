@@ -20,6 +20,7 @@ Point::Point(const Point& other) {
 	this->x = other.x;
 	this->y = other.y;
 	this->id = other.id;
+	this->flag = 0;
 }
 Point::~Point() {
 	if (flag) {
